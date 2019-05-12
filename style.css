@@ -1,48 +1,56 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
-header{
-    margin: 0px;
-    padding: 0px;
-}
-img{
-    margin: 10px;
-    padding: 10px;
-    width: 10%;
-    height:;
-}
-#nav{
+nav{
+    font-family: 'Acme', sans-serif;
     float:right;
-    padding: 20px;
-    margin: 20px;
-}
-#box{
     margin: auto;
-    width: 50%;
+    padding: 10px;
+    letter-spacing: 3px;
 }
-section{display: flex;
-    flex-direction: row;
+section{
+    display: flex;
+    justify-items: center; justify-content: center;
+    direction: row;
+    margin: ;
+    padding-left:30px;
+    text-justify: space-between;
+    height: 10%;
+    
 }
-.pic{
-    width: 500px;
-    height: 300px;
+h1,h2,h3,h4{
+    font-family: 'Acme', sans-serif;
+}
+p,ul,h2,h3,h4{
+    margin: 0px 300px 0px 300px;
+    padding: 5px;
+    
+
+
 }
 button{
-    background-color: rgba(236, 77, 104, 0.788);
-    color: rgb(202, 191, 191);
-    border: none;
-    margin: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+    background-color: #f2849e;
+    color: white;
+    padding-left:60px;
+    padding-right: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 30px ;
+    border: transparent;
+    font-size: 1.5em;
 }
 button:hover{
-    background-color: rgb(240, 30, 65)
+    background-color: #ec4b75;
+    color: rgb(223, 213, 213);
+}
+.book{
+    border-right: 9px solid gray;
+    margin-right:90px ;
+    border-left: 9px solid gray;
+}
+.pre{
+    margin: 60px 90px;
+    
 
 }
-#po{
-    width: 200px;
-    height: 200px;
-    border-left-color:3px solid gray;
-    border-right-color:3px solid gray
+ hr.line{
+width: 60%;
 }
