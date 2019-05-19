@@ -1,56 +1,142 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
-nav{
-    font-family: 'Acme', sans-serif;
-    float:right;
-    margin: auto;
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+}
+#bar {
+    display: none;
+}
+
+nav ul li {
+    display: inline;
+    border: 1px solid white;
+    padding: 30px;
+    font-size: 2em;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.5em;
+    
+}
+img#logo {
+    height: 100px;
+    width: 200px;
+    position: fixed;
     padding: 10px;
-    letter-spacing: 3px;
+    background-color: rgba(255, 255, 255, 0.432);
+
 }
-section{
+nav {
     display: flex;
-    justify-items: center; justify-content: center;
-    direction: row;
-    margin: ;
-    padding-left:30px;
-    text-justify: space-between;
-    height: 10%;
-    
+    width: 100%;
+    justify-content: flex-end;
+    background-color: white;
+    height: 75px;
+    align-items: center;
+
 }
-h1,h2,h3,h4{
-    font-family: 'Acme', sans-serif;
+body {
+    background-color: #f7f7f7;
+    margin: 0%;
 }
-p,ul,h2,h3,h4{
-    margin: 0px 300px 0px 300px;
-    padding: 5px;
-    
+main {
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 125px;
+    padding: 0px 110px;
+}
+figure {
+    margin: 0%;
+    display: inline-block;
+    display: flex;
+    flex-direction:row; 
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 20px;
+
+}
+figure div {
+    display: inline;
+    margin: 5px;
+}
+div#book-description {
+    margin: 0%;
+}
+div#book-description h3 {
+    letter-spacing:0.2em;
+    font-weight: bolder;
+    margin-top: 0%;
+    font-size: 1.3em;
+}
+div#book-description p {
+    border-top:3px solid rgba(128, 128, 128, 0.39);
+    font-size: 1.2em;
+
+}
+div#book-description article{
+    color:grey;
+    font-weight: bold;
+    border: none;
+}
+div#book-description span{
+    margin: 25px 0px;
+    display: block;
+}
+div#book-description span#price{
+    margin-left: 140px;
+
+}
+
+figure img {
+    height: 400px;
+    width:350px;
+    border-left: 6px solid rgba(128, 128, 128, 0.39);
+    border-right: 6px solid rgba(128, 128, 128, 0.39);
+    margin-right: 20px;
 
 
 }
-button{
-    background-color: #f2849e;
-    color: white;
-    padding-left:60px;
-    padding-right: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin: 30px ;
-    border: transparent;
+span#rating-stars {
+    color: #f7b733;
     font-size: 1.5em;
-}
-button:hover{
-    background-color: #ec4b75;
-    color: rgb(223, 213, 213);
-}
-.book{
-    border-right: 9px solid gray;
-    margin-right:90px ;
-    border-left: 9px solid gray;
-}
-.pre{
-    margin: 60px 90px;
-    
 
 }
- hr.line{
-width: 60%;
+span#price {
+    color: #b12703;
+    font-weight: bold;
+
+}
+button {
+    background-color: #f2849e;
+    border: none;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 1.5em;
+
+}
+button:hover {
+    background-color:#ed4b74;
+}
+div#availability {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+
+}
+div#details{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+}
+div#details ul li {
+    list-style-type: none;  
+    margin: 8px 0px;  
+}
+div#details ul {
+    padding: 0px;
+}
+article {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.39);
+    
 }
