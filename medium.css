@@ -1,0 +1,138 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+#bar {
+    position: fixed;
+    left: 88%;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #ffffff6b;
+}
+nav ul li {
+    display: none;
+}
+img#logo {
+    height: 60px;
+    width: 100px;
+    position: fixed;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.432);
+
+}
+nav {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+body {
+    background-color: white;
+    margin: 0%;
+    padding: 0px 30px;
+}
+main {
+   
+    margin: 0px 0px;
+    padding: 0px 30px;
+}
+figure {
+    margin: 0%;
+    display: inline-block;
+    display: flex;
+    flex-direction:row; 
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
+    padding-bottom: 20px;
+}
+figure div {
+    display: inline;
+    margin: 0px 5%;
+}
+
+div#book-description {
+    margin: 0%;
+    width: 100%;
+
+}
+div#book-description h3 {
+    letter-spacing:0.2em;
+    font-weight: bolder;
+    margin-top: 0%;
+    font-size: 2em;
+}
+div#book-description p {
+    border-top:3px solid rgba(128, 128, 128, 0.39);
+    font-size: 1.5em;
+
+}
+div#book-description article{
+    color:grey;
+    font-weight: bold;
+    border: none;
+}
+div#book-description span{
+    margin: 25px 0px;
+    display: block;
+}
+div#book-description span#price{
+    margin-left: 170px;
+
+}
+
+figcaption {
+    width: 70%;
+    display: flex;
+
+}
+figure img {
+
+    min-width: 35%;
+    height: 40%;
+    width: 50%;
+    min-height: fit-content;
+    border-top: 45px solid rgba(128, 128, 128, 0.39);
+    border-bottom: 45px solid rgba(128, 128, 128, 0.39);
+    border-right: none;
+    border-left: none;
+    margin-right: 20px;
+}
+span#rating-stars {
+    color: #f7b733;
+    font-size: 2em;
+}
+span#price {
+    color: #b12703;
+    font-weight: bold;
+
+}
+button {
+    background-color: #f2849e;
+    border: none;
+    color: white;
+    width: 85%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em 1.5em;
+}
+button:hover {
+    background-color:#ed4b74;
+}
+div#availability {
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
+
+}
+div#details{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
+}
+div#details ul li {
+    list-style-type: none;  
+    margin: 8px 0px;  
+}
+div#details ul {
+    padding: 0px;
+}
+article {
+    border-bottom: 3px solid rgba(128, 128, 128, 0.39);
+    
+}
